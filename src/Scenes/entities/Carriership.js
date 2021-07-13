@@ -26,3 +26,11 @@ export default class CarrierShip extends Entity {
     };
     this.state = this.states.MOVE_DOWN;
   }
+
+  onDestroy() {
+    if (this.shootTimer !== undefined) {
+      if (this.shootTimer) {
+        this.shootTimer.remove(false);
+      }
+    }
+  }
