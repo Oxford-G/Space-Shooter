@@ -14,5 +14,9 @@ const noInputError = () => {
   setTimeout(() => input.classList.remove('error'), 3000);
 };
 
+const clearDOM = () => {
+  const inputWrap = document.querySelector('.input-wrap');
+  inputWrap.parentNode.removeChild(inputWrap);
+};
 
 export { checkForm, noInputError, clearDOM };
