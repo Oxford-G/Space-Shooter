@@ -1,4 +1,3 @@
-
 /* eslint no-underscore-dangle: 0 */
 export default class Model {
   constructor() {

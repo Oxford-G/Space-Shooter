@@ -2,7 +2,7 @@
 * @jest-environment jsdom
 */
 
-import 'regenerator-runtime/runtime.js';
+import 'regenerator-runtime/runtime.js'; // eslint-disable-line import/extensions
 
 const fetch = require('node-fetch');
 
