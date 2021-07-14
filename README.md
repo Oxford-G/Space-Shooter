@@ -24,7 +24,7 @@ A space shooter game build with Phaser 3, javascript and webpack, this project i
 
 ## Live link
 
-[live link](https://oxford-g.github.io/TODO-LIST/dist/index)
+[live link](https://oxford-g.github.io/Space-Shooter/index)
 
 ## How to Play
 Input your name on the first page and click the submit button, There is a menu on the next page which are Play, Options, Credits and Scoreboard. You can disable the sound in the options menu. Click on the play menu to start your game. You can move around the screen using W, S, D, and A keys and use the Space Bar to shoot whenever you see an enemy.
@@ -46,10 +46,6 @@ Input your name on the first page and click the submit button, There is a menu o
 ## Run tests
 
 - Run `npm test` to run all the tests.
-
-## Live link
-
-[live link](https://oxford-g.github.io/Space-Shooter/index)
 
 ## Author
 
