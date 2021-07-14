@@ -1,3 +1,7 @@
+/**
+* @jest-environment jsdom
+*/
+
 import { setUser, getUser } from '../src/User/user';
 
 describe('Tests for getting default user name', () => {

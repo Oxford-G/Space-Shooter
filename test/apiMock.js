@@ -1,4 +1,8 @@
-import 'regenerator-runtime';
+/**
+* @jest-environment jsdom
+*/
+
+import 'regenerator-runtime/runtime.js';
 
 const fetch = require('node-fetch');
 

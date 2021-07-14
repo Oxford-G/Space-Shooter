@@ -1,3 +1,7 @@
+/**
+* @jest-environment jsdom
+*/
+
 import { initGame, postScore, getScores } from './apiMock';
 
 describe('Tests for initalizing a new game on Score API', () => {

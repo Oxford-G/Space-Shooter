@@ -1,3 +1,7 @@
+/**
+* @jest-environment jsdom
+*/
+
 import 'jest-canvas-mock';
 import Player from '../src/Scenes/entities/Player';
 

@@ -1,3 +1,7 @@
+/**
+* @jest-environment jsdom
+*/
+
 import setScoreToStore from '../src/localStorage';
 
 const score = 90;
