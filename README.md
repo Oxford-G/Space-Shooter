@@ -12,7 +12,8 @@ A space shooter game build with Phaser 3, javascript and webpack, this project i
 
 ![screenshot](src/assets/space-3.png)
 
-## [Check my Game Design Document] (https://github.com/Oxford-G/Space-Shooter/blob/feature-branch/GDD.md)
+
+[Check my Game Design Document] (https://github.com/Oxford-G/Space-Shooter/blob/feature-branch/GDD.md)
 
 ## Built With
 
