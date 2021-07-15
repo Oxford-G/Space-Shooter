@@ -43,8 +43,7 @@ export default class BootScene extends Phaser.Scene {
     this.btnRestart.setInteractive();
 
     this.btnRestart.on('pointerover', function () {
-      this.btnRestart.setTexture('sprBtnRestartHover'); // set the button texture to sprBtnPlayHover
-    // this.sfx.sndBtnOver.play(); // play the button over sound
+      this.btnRestart.setTexture('sprBtnRestartHover');
     }, this);
 
     this.btnRestart.on('pointerout', function () {
@@ -53,7 +52,6 @@ export default class BootScene extends Phaser.Scene {
 
     this.btnRestart.on('pointerdown', function () {
       this.btnRestart.setTexture('sprBtnRestartDown');
-    // this.sfx.sndBtnDown.play();
     }, this);
 
     this.btnRestart.on('pointerup', function () {
