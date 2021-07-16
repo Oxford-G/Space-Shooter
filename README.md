@@ -27,7 +27,7 @@ A space shooter game build with Phaser 3, javascript and webpack, this project i
 
 ## Live link
 
-(oxy-space-shooter-game.netlify.app)
+[live link](https://oxy-space-shooter-game.netlify.app)
 
 ## How to Play
 Input your name on the first page and click the submit button, There is a menu on the next page which are Play, Options, Credits and Scoreboard. You can disable the sound in the options menu. Click on the play menu to start your game. You can move around the screen using W, S, D, and A keys and use the Space Bar to shoot whenever you see an enemy.
