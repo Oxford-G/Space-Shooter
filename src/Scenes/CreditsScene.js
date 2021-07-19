@@ -6,9 +6,37 @@ export default class CreditsScene extends Phaser.Scene {
     super('Credits');
   }
 
+  preload() {
+    this.load.image('Btnback', '../src/assets/btnBack.png');
+    this.load.image('Btnbackhover', '../src/assets/btnBackHover.png');
+  }
+
   create() {
+    this.BtnBack = this.add.sprite(
+      this.game.config.width * 0.9,
+      this.game.config.height * 0.08,
+      'Btnback',
+    );
+
+    this.BtnBack.setInteractive();
+    this.BtnBack.on(
+      'pointerover',
+      () => {
+        this.BtnBack.setTexture('Btnbackhover');
+      },
+      this,
+    );
+
+    this.BtnBack.on('pointerup', () => {
+      this.scene.start('Title');
+    });
+
+    this.BtnBack.on('pointerout', () => {
+      this.BtnBack.setTexture('Btnback');
+    });
+    
     this.creditsText = this.add.text(0, 0, 'Credits', { fontSize: '32px', fill: '#fff' });
-    this.madeByText = this.add.text(0, 0, 'Created By: Necmi GUNDUZ', { fontSize: '26px', fill: '#fff' });
+    this.madeByText = this.add.text(0, 0, 'Created By: Enekwechi Chinonso', { fontSize: '26px', fill: '#fff' });
     this.mcText = this.add.text(0, 0, 'Thanks to Microverse', { fontSize: '26px', fill: '#fff' });
 
     this.zone = this.add.zone(config.width / 2, config.height / 2, config.width, config.height);
