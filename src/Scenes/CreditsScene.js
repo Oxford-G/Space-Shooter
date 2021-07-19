@@ -34,7 +34,7 @@ export default class CreditsScene extends Phaser.Scene {
     this.BtnBack.on('pointerout', () => {
       this.BtnBack.setTexture('Btnback');
     });
-    
+
     this.creditsText = this.add.text(0, 0, 'Credits', { fontSize: '32px', fill: '#fff' });
     this.madeByText = this.add.text(0, 0, 'Created By: Enekwechi Chinonso', { fontSize: '26px', fill: '#fff' });
     this.mcText = this.add.text(0, 0, 'Thanks to Microverse', { fontSize: '26px', fill: '#fff' });
