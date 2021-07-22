@@ -34,7 +34,6 @@ class CreditsScene extends Phaser.Scene {
       },
     });
 
-
     this.madeByTween = this.tweens.add({
       targets: this.madeByText,
       y: -300,

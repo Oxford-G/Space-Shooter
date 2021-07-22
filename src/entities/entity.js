@@ -15,7 +15,6 @@ class Entity extends Phaser.GameObjects.Sprite {
       this.setTexture('sprExplosion');
       this.play('sprExplosion');
 
-
       const { model } = this.scene.sys.game.globals;
 
       if (model.soundOn === true) {

@@ -42,7 +42,6 @@ class GameScene extends Phaser.Scene {
 
     this.add.image(300, 400, 'bgImage');
 
-
     const scoreCont = this.add.image(110, 40, 'scoreContainer');
     scoreCont.scaleX = 0.8;
     scoreCont.scaleY = 0.6;
@@ -158,7 +157,6 @@ class GameScene extends Phaser.Scene {
         this.player.setData('isShooting', false);
       }
     }
-
 
     laserUpdate(this, this.enemies.getChildren(), 'enemy');
     laserUpdate(this, this.enemyBullets.getChildren(), 'laser');

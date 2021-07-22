@@ -87,7 +87,6 @@ class PreloaderScene extends Phaser.Scene {
       assetText.destroy();
     });
 
-
     this.load.image('soundOn', soundOn);
     this.load.image('soundOff', soundOff);
     this.load.image('spaceButton', spaceButton);
