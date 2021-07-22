@@ -18,39 +18,17 @@ Everything can change overnight, that's what john learned, a pilot of the space 
 
     - Speed force Reiks: These enemies are Reiks that were trained to drive at an incredible velocity.
 
-## Enemy ships
-
-- Chaser Ship
-
-![screenshot](src/assets/enemy.png)
-
-- Carrier Ship
-
-![screenshot](src/assets/enemy1.png)
-
-- Gun Ship
-
-![screenshot](src/assets/enemy2.png)
-
-- Hollow Ship
-
-![screenshot](src/assets/enemy3.png)
-
-## Laser
-
-![screenshot](src/assets/laser.png)
-
 ## Controls
 
-- Play with the W, S, D, and A keys:
+- Play with the Arrows:
 
-- Key W move you UP
+- ARROW UP move you UP
 
-- Key S move you DOWN
+- ARROW DOWN move you DOWN
 
-- Key A move you LEFT
+- ARROW LEFT move you LEFT
 
-- Key D move you RIGHT
+- ARROW RIGHT move you RIGHT
 
 - And press SPACE to SHOOT
 

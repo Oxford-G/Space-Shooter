@@ -8,13 +8,11 @@ A space shooter game build with Phaser 3, javascript and webpack, this project i
 
 The game uses one laser sprite, one user ship, four enemy ships, and two backgrounds. Two backgrounds are displayed on each other to create a more interesting background and higher contrast. The user ship is black and white to have a high contrast with the background. The enemy ships have fantastic desings, and they are relatively more colored to create a confusion with the dark background with low contrast. There is a background music, and an explosion sound in the game.
 
-## Main menu
-
-![screenshot](src/assets/space-2.png)
+## Main Menu:
+![screenshot](./src/assets/menu.PNG)
 
 ## Game scenario:
-
-![screenshot](src/assets/space-3.png)
+![screenshot](./src/assets/game.PNG)
 
 
 [Check my Game Design Document] (https://github.com/Oxford-G/Space-Shooter/blob/feature-branch/GDD.md)
@@ -34,9 +32,10 @@ The game uses one laser sprite, one user ship, four enemy ships, and two backgro
 [live link](https://oxy-space-shooter-game.netlify.app)
 
 ## How to Play
-Input your name on the first page and click the submit button, There is a menu on the next page which are Play, Options, Credits and Scoreboard. You can disable the sound in the options menu. Click on the play menu to start your game. You can move around the screen using W (move you UP), S (move you DOWN), D (move you RIGHT), and A (move you LEFT) keys and use the Space Bar to shoot whenever you see an enemy.
+Input your name on the first page and click the submit button, There is a menu on the next page which are Play, Options, Credits and Scoreboard. You can disable the sound in the options menu. Click on the play menu to start your game. You can move around the screen using ARROW UP, ARROW  DOWN, ARROW RIGHT, and ARROW LEFT and use the Space Bar to shoot whenever you see an enemy.
 
 # Do you want to clone?
+
 ## Getting Started
 
 - Go to your terminal
