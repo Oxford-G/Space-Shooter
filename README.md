@@ -29,7 +29,7 @@ The game uses one laser sprite, one user ship, four enemy ships, and two backgro
 
 ## Live link
 
-[live link](https://oxy-space-shooter-game.netlify.app)
+[live link](https://hidden-brook-99127.herokuapp.com/)
 
 ## How to Play
 Input your name on the first page and click the submit button, There is a menu on the next page which are Play, Options, Credits and Scoreboard. You can disable the sound in the options menu. Click on the play menu to start your game. You can move around the screen using ARROW UP, ARROW  DOWN, ARROW RIGHT, and ARROW LEFT and use the Space Bar to shoot whenever you see an enemy.
