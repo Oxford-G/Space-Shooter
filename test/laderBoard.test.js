@@ -30,7 +30,6 @@ describe('API Module Fuctionality', () => {
     expect(Array.isArray(players.result)).toBe(true);
   });
 
-
   it('returns the information of the Players', async () => {
     const players = await laderBoardModule.getScores();
     expect(players.result[0].user).toEqual('Good');
